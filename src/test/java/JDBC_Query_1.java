@@ -31,6 +31,8 @@ public class JDBC_Query_1 {
 
         rs.next();
         System.out.println(rs.getString("name"));
+        // System.out.println(rs.getInt("id"));
+        // System.out.println(rs.getDate("created_at"));
     }
 }
 
